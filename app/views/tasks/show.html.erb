@@ -1,0 +1,6 @@
+<h2><%= @task.name %></h2>
+  <p>Priority: <%= @task.priority %></p>
+  <p>Completed: <%= @task.completed %></p>
+  <p>Created at: <%= @task.created_at %></p>
+  <p>Last change: <%= @task.updated_at %></p>
+<p> <%= link_to "Edit", edit_task_path(@task) %></p>
